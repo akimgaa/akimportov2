@@ -449,6 +449,17 @@ body.nav-active { overflow: hidden; }
 
 .about-card .card-title { margin-block: 16px 10px; }
 
+.grid-list {
+  display: flex;
+  max-width: fit-content;
+  align-items: center;
+  justify-content: center; /* Buat elemen di dalam grid berada di tengah */
+  gap: 4rem; /* Jarak antar item */
+  flex-wrap: wrap; /* Supaya elemen bisa turun baris kalau nggak muat */
+  list-style: none; /* Hilangin bullet point */
+  padding: 0;
+}
+
 
 
 
